@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+    background-image: url(./doctor-strange-in-the-multiverse-of-madness-10k-sx-1366x768.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(128, 0, 0, 0.6) ;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 20px black;
+    border-radius: 40px;
+    padding: 50px;
+}
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.campo {
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: antiquewhite;
+}
+    
+
+.input {
+    height: 40px;
+    width: 100%; 
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: solid 3px rgb(26, 17, 51);
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.button {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(270deg, rgb(49, 3, 3), rgb(5, 0, 31));
+    color: rgb(231, 224, 224);
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checkbox label {
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.checkbox input {
+    width: 16px;
+    height: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+h2:hover {
+    text-shadow: 0 3px black;
+}
